@@ -9,7 +9,7 @@ When people are filling out your form, it's best to give them feedback as quickl
 
 ## Specs
 
-This is a boilerplate for form validation, using only Javscript and some Bootstrap classes for simplification. Feel free to change the styling and add your own style classes in a seperate CSS file, (don't forget to link it in `index.html` after).
+This is a boilerplate for form validation, using only Javascript and some Bootstrap classes for simplification. Feel free to change the styling and add your own style classes in a seperate CSS file, (don't forget to link it in `index.html` after).
 
 ```bash
 mkdir css
@@ -30,3 +30,7 @@ Open the `validation.js` file. This is where I coded the validation logic.
 ## Further suggestions
 
 Used [bootstrap validation state classes](http://getbootstrap.com/css/#forms-control-validation) to add a red background when a field is not properly filled.
+
+## TODO
+
+Complete the event listener on the `"submit"` event to run over all the validations before sending the `POST` request.
